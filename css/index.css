@@ -1,3 +1,261 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 876px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 67px;
+}
+
+nav,
+nav a,
+.logo,
+.title {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: silver;
+  margin: 30px 0 0 60px;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+nav a:first-child {
+  margin-left: 0;
+}
+
+.title {
+  vertical-align: top;
+  margin: 104px 0 0 60px;
+  text-align: center;
+}
+
+.code-snippet {
+  margin: 64px 0 0 125px;
+  line-height: 55px;
+}
+
+.logo {
+  margin: 25px 0 0 123px;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+button {
+  border-color: black;
+  width: 155px;
+  height: 29px;
+  font-size: 15px;
+}
+
+.top-section,
+.bottom-section {
+  padding: 40px 0;
+}
+
+.features,
+.about {
+  display: inline-block;
+  width: 49.5%;
+}
+
+.services,
+.product,
+.vision {
+  display: inline-block;
+  width: 33%;
+}
+
+.top-section {
+  border-top: 2px black solid;
+}
+
+.bottom-section {
+  border-bottom: 2px black solid;
+}
 
 
+
+footer {
+  margin-top: 40px;
+}
+
+small {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
