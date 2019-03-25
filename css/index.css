@@ -167,6 +167,7 @@ html {
   box-sizing: inherit;
 }
 
+/***************************/
 .container {
   width: 876px;
   margin: 0 auto;
@@ -258,4 +259,52 @@ small {
   display: block;
   text-align: center;
   margin-top: 30px;
+}
+
+@media(max-width: 800px) {
+
+  .container {
+    padding: 20px 3%;
+
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .code-snippet {
+    display: none;
+  }
+
+  .order {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    margin: 0 auto;
+    order: 1;
+  }
+
+  .order nav {
+    display: flex;
+    justify-content: space-between;
+    order: 2;
+  }
+
+  .title {
+    margin: 0 auto;
+  }
+
+  nav a {
+    margin: 0;
+  }
+
+  .middle-img {
+    width: 100%;
+    height: auto;
+  }
+
+
 }
